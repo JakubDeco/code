@@ -17,13 +17,13 @@ public class Main {
         }
         System.out.println("="+count);
         //sucet mocnin cisla 2
-        int x;
+        /*int x;
         int count=0;
         for (int i=0;i<=16;i++){
             x= (int) Math.pow(2,i);
             count=count+x;
             System.out.print(x+"+");
         }
-        System.out.println("="+count);
+        System.out.println("="+count);*/
     }
 }
