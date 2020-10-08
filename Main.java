@@ -3,7 +3,7 @@ package sk.keakademia.deco.palindrom;
 public class Main {
     public static void main(String[] args) {
         //sucet cisel s rozdielnymi ciframi
-        int x=101;
+        /*int x=101;
         int count=0;
         while (x>100&&x<1000){
             int c1=(x/100)%10;
@@ -15,7 +15,7 @@ public class Main {
             }
             x++;
         }
-        System.out.println("="+count);
+        System.out.println("="+count);*/
         //sucet mocnin cisla 2
         /*int x;
         int count=0;
@@ -25,5 +25,12 @@ public class Main {
             System.out.print(x+"+");
         }
         System.out.println("="+count);*/
+        int x=4;
+        for (int n=x;n>0;n--){
+            for (int i=n-1;i>0;i--) System.out.print(" ");
+            for (int j=0;n-1+x>x*2-j;j+=2) System.out.print("*");
+            System.out.println();
+        }
+//commentt
     }
 }
